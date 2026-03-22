@@ -548,7 +548,7 @@
                                         {t.resFoot}
                                     </p>
 
-                                    <button onClick={sendToWhatsApp} className="w-full py-5 sys-btn-green rounded-2xl font-black uppercase text-xs tracking-widest mt-auto font-mono-sys">
+                                    <button onClick={google.script.run} className="w-full py-5 sys-btn-green rounded-2xl font-black uppercase text-xs tracking-widest mt-auto font-mono-sys">
                                         {t.resBtn}
                                     </button>
                                 </div>
