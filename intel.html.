@@ -352,7 +352,7 @@
                 setTimeout(() => { clearInterval(interval); setStep(5); }, 2500);
             };
 
-            const sendToWhatsApp = () => {
+            const google.script.run = () => {
                 const fullPhone = profile.countryCode + profile.phone.replace(/^0+/, ''); 
                 const prefix = nodeTarget === 'HEALTHBAR' ? '[ HEALTHBAR INTERNAL PROTOCOL ]' : '[ AOLOVE EXTERNAL PROTOCOL ]';
                 
